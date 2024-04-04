@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 	description:
 		"Cast your vote now and see live updates on the poll results, powered by the real-time capabilities of Supabase database integration in our web app",
 	openGraph: {
-		title: "Daily Vote",
+		title: "Arjun Sharma",
 		description:
 			"Cast your vote now and see live updates on the poll results, powered by the real-time capabilities of Supabase database integration in our web app.",
 		url: "https://next-supabase-vote.vercel.app/",
