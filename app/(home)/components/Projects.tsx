@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiAppwrite, SiBootstrap, SiCss3, SiHtml5, SiNextdotjs, SiReacthookform, SiReactquery, SiSupabase, SiTailwindcss } from 'react-icons/si'
+import { SiAppwrite, SiBootstrap, SiCss3, SiHtml5, SiMysql, SiNextdotjs, SiPhp, SiReacthookform, SiReactquery, SiSupabase, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
@@ -9,27 +9,27 @@ export default function Projects() {
   const projects = [
     {
       title: "Portfolio web site",
-      tech: [SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss],
-      link: "http://localhost:3000/",
+      tech: [SiNextdotjs, SiTypescript, SiReactquery, SiTailwindcss],
+      link: "https://portfolio-arjun54244.vercel.app/",
       cover: "/poject-1.png",
       background: "bg-indigo-500"
     },
     {
-      title: "Portfolio web site",
-      tech: [SiNextdotjs, SiReactquery, SiSupabase, SiTailwindcss],
-      link: "http://localhost:3000/",
+      title: "Dr. Minakshisoni",
+      tech: [SiPhp, SiMysql, SiCss3, SiBootstrap],
+      link: "https://drminakshisoni.com/",
       cover: "/poject-2.png",
       background: "bg-green-500"
     },
     {
-      title: "Portfolio web site",
+      title: "Food.iso",
       tech: [SiHtml5, SiCss3, SiBootstrap],
-      link: "http://localhost:3000/",
+      link: "https://arjun54244.github.io/Foods.iso/",
       cover: "/poject-3.png",
       background: "bg-sky-500"
     },
     {
-      title: "Portfolio web site",
+      title: "Snapgram",
       tech: [ SiReactquery, SiAppwrite, SiReacthookform, SiTailwindcss],
       link: "https://snapgram-git-main-arjun54244.vercel.app/",
       cover: "/poject-4.png",

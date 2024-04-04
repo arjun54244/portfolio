@@ -12,7 +12,7 @@ export default function HeroSection() {
                     <span className='underline underline-offset-8 decoration-green-500'>{"I'm Arjun Sharma."}</span>
                 </h1>
                 <p className='md:w-96 text-lg text-gray-300'>
-                    {" Based in India, I'm a Fullstack developer Passionate about building a modern web application that users love."}
+                    {"I'm a Fullstack developer Passionate about building a modern web application that users love."}
                 </p>
                 <Link href={"mailto:as2782635@gmail.com"} className='inline-block'>
                     <Title text='Contact Me 📪'/>
@@ -32,7 +32,7 @@ export default function HeroSection() {
                 </div>
                <div className="absolute bottom-5 sm:bottom-14 left-0 sm:left-10">
                <MovingBorderBtn borderRadius='0.5rem' className='p-3 font-semibold'>
-                    <p>🚃 Available for Word</p>
+                    <p>🚃 Available for Work</p>
                 </MovingBorderBtn>
                </div>
             </div>
