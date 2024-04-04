@@ -7,11 +7,11 @@ const space_Grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: {
-		template: "%s | Daily Vote",
-		default: "Daily Vote",
+		template: "%s | arjun54244",
+		default: "arjun54244",
 	},
 	authors: {
-		name: "arjunsharma",
+		name: "arjun54244",
 	},
 
 	description:
