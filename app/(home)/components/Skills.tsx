@@ -8,6 +8,7 @@ export default function Skills() {
   const skills = [
     { text: "React", items: SiReact },
     { text: "Next.js", items: SiNextdotjs },
+    { text: "Laravel", items: SiLaravel },
     { text: "Vite.js", items: SiVite },
     { text: "Tailwind", items: SiTailwindcss },
     { text: "Bootstrap", items: SiBootstrap },
