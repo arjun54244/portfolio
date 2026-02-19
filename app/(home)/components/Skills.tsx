@@ -3,10 +3,10 @@ import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
 import { SiAppwrite, SiBootstrap, SiFirebase, SiGit, SiJavascript, SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiPhp, SiReact, SiSupabase, SiSvelte, SiTailwindcss, SiTypescript, SiVite, SiSpring, SiLaravel } from 'react-icons/si';
-
+import { FaJava } from "react-icons/fa6";
 export default function Skills() {
   const skills = [
-    { text: "React", items: SiSpring },
+    { text: "Spring", items: SiSpring },
     { text: "React", items: SiReact },
     { text: "Next.js", items: SiNextdotjs },
     { text: "Laravel", items: SiLaravel },
@@ -22,6 +22,7 @@ export default function Skills() {
     { text: "Firebase", items: SiFirebase },
     { text: "Appwrite", items: SiAppwrite },
     { text: "PHP", items: SiPhp },
+    { text: "Java", items: FaJava },
     { text: "MySql", items: SiMysql },
   ];
   
